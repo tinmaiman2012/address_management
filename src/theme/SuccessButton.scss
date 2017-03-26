@@ -1,0 +1,7 @@
+@import "~react-toolbox/lib/colors";
+@import "~react-toolbox/lib/button/mixins";
+
+$purple: #800080;
+$white: #fff;
+
+@include btn-colors("primary", $color-white, $purple, rgba($palette-green-500, .2));
